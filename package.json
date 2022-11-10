@@ -1,0 +1,23 @@
+{
+    "name": "thinkstorm",
+    "displayName": "ThinkStorm",
+    "publisher": "Patczatowicz",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.73.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ThinkStorm",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ThinkStorm-color-theme.json"
+            }
+        ]
+    },
+    "icon": "icon.png"
+}
