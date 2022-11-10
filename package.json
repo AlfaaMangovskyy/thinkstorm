@@ -10,12 +10,28 @@
     "categories": [
         "Themes"
     ],
+    "activationEvents": [
+        "onCommand:thinkstorm.evlet",
+        "onStartupFinished",
+        "onCommand:thinkstorm.dispend_note"
+    ],
+    "main": "./extension.js",
     "contributes": {
         "themes": [
             {
                 "label": "ThinkStorm",
                 "uiTheme": "vs-dark",
                 "path": "./themes/ThinkStorm-color-theme.json"
+            }
+        ],
+        "commands": [
+            {
+                "command": "thinkstorm.evlet",
+                "title": "Theme Mixin'"
+            },
+            {
+                "command": "thinkstorm.dispend_note",
+                "title": "ThinkStorm : Change status bar notes."
             }
         ]
     },
