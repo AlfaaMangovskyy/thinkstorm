@@ -19,5 +19,8 @@
             }
         ]
     },
-    "icon": "icon.png"
+    "icon": "icon.png",
+    "repository": {
+        "url": "https://github.com/AlfaaMangovskyy/thinkstorm"
+    }
 }
